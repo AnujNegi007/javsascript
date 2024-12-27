@@ -2,14 +2,14 @@
 console.log("Hello World!")
 // beacuse of hositing i can change the value from here
 accountPassword = "100"
-
-accountState = "dehradun"
 // Variable & constant
 const accountId = 1
 let accountEmail = "anuj.negi@uber.com"
 var accountPassword;
 accountCity = "dehradun"
-let accountState;
+let accountState; // at that time the value will be undefined
+
+// accountCity = "dehradun" not a good practice beacuse it will defined in the global context
 
 // accountId = 2 -> assingment in constnat varibale is not allowed if you try do that you will get an error
 
