@@ -48,7 +48,7 @@ let val5 = "2" * "5"
 console.log(typeof val5, val5);
 let lastValue = 1 + 2 - "5"
 console.log("Last value : ", typeof lastValue, lastValue);
-// ----------------- opertation peecdence ----------------
+// ----------------- opertation precedence ----------------
 /*
 Parentheses () - Grouping expressions
 Exponentiation **
@@ -56,6 +56,11 @@ Multiplication *, Division /, Remainder %
 Addition + and Subtraction -
 */
 console.log("3" + 2 * 5 ** 2 / 2);
+
+// if we perform arthemctic except string it will do all operation but in string it shows string
+const final = true 
+console.log(final, typeof final);
+
 
 
 
