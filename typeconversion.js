@@ -16,4 +16,48 @@ let stringNumber = String(randomNumber)
 console.log(typeof stringNumber);
 console.log(stringNumber);
 
+// ----------------------- Arthematic OPERATIONS ---------------------
+
+// additon
+console.log(2 + 2);
+// subtraction
+console.log(2 - 2);
+// multplication
+console.log(2 * 2);
+// power
+console.log(2 ** 3);
+// divison
+console.log(2 / 2);
+// module 
+console.log(9 % 2);
+
+let str1 = "Hello"
+let str2 = " javascript!"
+// when we perfrom + alway string
+// but in others alway number
+console.log(str1 + str2);
+let val = "1" + 2
+console.log(typeof val);
+let val2 = 1 + "2"
+console.log(typeof val2);
+let val3 = "2" - 1
+console.log(typeof val3, val3);
+let val4 = 2 - "1"
+console.log(typeof val4, val4);
+let val5 = "2" * "5"
+console.log(typeof val5, val5);
+let lastValue = 1 + 2 - "5"
+console.log("Last value : ", typeof lastValue, lastValue);
+// ----------------- opertation peecdence ----------------
+/*
+Parentheses () - Grouping expressions
+Exponentiation **
+Multiplication *, Division /, Remainder %
+Addition + and Subtraction -
+*/
+console.log("3" + 2 * 5 ** 2 / 2);
+
+
+
+
 
