@@ -6,6 +6,8 @@ let a = 10;
 let str = "i'm iron man"
 
 let bign = 12345n
+console.log(typeof(bign));
+
 
 // non-primitive or refernce type  -> arrays, objects,  functions, date
 // FIXME: In JavaScript, everything that is not a primitive type is considered an object
