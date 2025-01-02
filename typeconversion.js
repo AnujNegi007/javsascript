@@ -61,6 +61,11 @@ console.log("3" + 2 * 5 ** 2 / 2);
 const final = true 
 console.log(final, typeof final);
 
+let x = 5;
+let y = ++x;
+console.log(y);
+
+
 
 
 
