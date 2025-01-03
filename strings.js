@@ -53,3 +53,23 @@ let anotherfunName = "anuj-negi-dev-cloud"
 // ]
 //if we keep split blank it will make ["anuj-negi-dev-cloud"]
 console.log(anotherfunName.split());
+
+// char code at is used to get the asscai value of code
+
+let text = "vivek"
+console.log(text.charCodeAt(0));
+// concat is used to add two string
+let string1 = "Hello"
+let string2 = " World!"
+console.log(string1.concat(string2).concat(" JS"));
+
+let arr = ["spiderman", "ironman", "thor"]
+
+for(let i = 0; i < arr.length; i++){
+    if(arr[i].endsWith("man")){
+        console.log(arr[i]);
+    }
+}
+
+
+
