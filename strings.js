@@ -26,14 +26,14 @@ let messywrod = "Hello World!"
 console.log(messywrod.trim());
 //substring method used to get a part of string
 let newstring = messywrod.substring(0, 5)
-console.log(newstring);
+console.log("substring : ",newstring);
 
 // slice method -- H e l l o   w o r l d !"
 //                 0 1 2 3 4 5 6 7 8 9 10 11
 //                 -12 -11 -10 -9 -8 -6 -5 -4 -3 -2 -1
 const string = "Hello world!"
-const anotherString = string.slice(-12, -1)
-console.log(anotherString);
+const anotherString = string.slice(0, 5)
+console.log("slice : ",anotherString);
 
 // replace - is used to replace any char 
 let igl = "kushi kapurwan"
